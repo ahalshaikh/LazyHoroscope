@@ -1,4 +1,4 @@
-//Authors:
+//Authors: Ali Alshaikh
 #include<iostream>
 #include<string>
 
@@ -12,9 +12,26 @@ int main()
 
   //get user input
   cout<<"please enter your first and last name: ";
-cin>>name, lastname;
+cin>>name>> lastname;
 
-  //tell fortune
+  //tell fortune 
+string nickname = "";
+nickname.push_back(name[0]);
+nickname.push_back('.');
+nickname.push_back(lastname[0]);
+nickname.push_back('.');
+cout<<"Welcome, "<<nickname<<", here is your fortune..."<<endl;
+int lucky;
+lucky = name.length();
+cout<<"your lucky number is: "<<lucky<<endl;
+if ((name[0] == 'a') || (name[0] == 'e') || (name[0] == 'i') || (name[0] == 'u'))
+{
+cout<<"you are destined to be famous! \nyou have already met your true love. \nhave a good day!"<<endl;
+}
 
+else 
+{
+cout<<"you should keep a low profile \n have a good day!"<<endl;
+}
   return 0;
 }
