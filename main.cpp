@@ -24,7 +24,7 @@ nickname.push_back('.');
 cout<<"Welcome, "<<nickname<<", here is your fortune..."<<endl;
 int lucky;
 lucky = name.length();
-cout<<"your lucky number is: "<<lucky<<endl;
+cout<<"your lucky number is "<<lucky<<endl;
 
 if ((name[0] == 'a') || (name[0] == 'e') || (name[0] == 'i') || (name[0] == 'o')|| (name[0] == 'u') || (name[0] == 'A') || (name[0] == 'E') || (name[0] == 'I') || (name[0] =='O') || (name[0] == 'U'))
 {
