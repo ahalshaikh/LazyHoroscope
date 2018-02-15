@@ -31,15 +31,17 @@ if ((name[0] == 'a') || (name[0] == 'e') || (name[0] == 'i') || (name[0] == 'o')
 cout<<"you are destined to be famous!"<<endl;
 }
 
+else
+{
+cout<<"you should keep a low profile."<<endl;
+}
+
 int len = lastname.length();
 if ((lastname[len - 1] == 'a') || (lastname[len - 1] == 'e') || (lastname[len - 1] == 'i') || (lastname[len - 1] == 'o') || (lastname[len - 1] == 'u') || (lastname[len - 1] == 'A') || (lastname[len - 1] == 'E') || (lastname[len - 1] == 'I') || (lastname[len - 1] == 'O') || (lastname[len - 1] == 'U'))
 {
 cout<<"you have already met your true love."<<endl;
 }
-else 
-{
-cout<<"you should keep a low profile."<<endl;
-}
+
 cout<<"have a good day!"<<endl;
   return 0;
 }
