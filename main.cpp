@@ -40,6 +40,6 @@ else
 {
 cout<<"you should keep a low profile."<<endl;
 }
-cout<<"have a good day!"<<endl
+cout<<"have a good day!"<<endl;
   return 0;
 }
